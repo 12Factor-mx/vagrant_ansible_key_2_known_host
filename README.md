@@ -10,11 +10,11 @@ This mainly happens becasue the Vagrat boxes public ssh key does not exists in t
 
 ## Tries to solve
 
-Avoids the ansible or ansible-playbook "fingerprint" error message when the Vagrant boxes public ssh key does nor exists in the user home know_hosts file
+Avoids the ansible or ansible-playbook "fingerprint" error message when the Vagrant boxes public ssh key does nor exists in the user home known_hosts file
 
 ## Description
 
-This shell gives the user the ability to add and/or overwrite the Vagrants boxes public ssh key to the user home know_hosts file based on the autoganerated file vagrant_ansible_inventory.
+This shell gives the user the ability to add and/or overwrite the Vagrants boxes public ssh key to the user home known_hosts file based on the autoganerated file vagrant_ansible_inventory.
 
 For mor information the  please refer to the official documentation at <https://www.vagrantup.com/docs/provisioning/ansible_intro.html#the-inventory-file> 
 
@@ -45,7 +45,7 @@ Start a Bash shell and cd into your VAGRANT_HOME project
 Once there execute the shell as
 
 ```bash
-./va_fp_2_kh.sh
+./va_pk_2_kh.sh
 ```
 
 ## Enjoy '!'
