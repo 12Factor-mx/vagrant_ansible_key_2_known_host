@@ -6,7 +6,7 @@ After creating and provisioning some boxes with Vagrant and Ansible the user tes
 
 ![Alt text](img/fingerprint_error.png?raw=true "Title")
 
-This mainly happens becasue the Vagrat boxes public ssh key does not exists in the user home know_hosts file.
+This mainly happens becasue the Vagrat boxes public ssh key does not exists in the user home known_hosts file.
 
 ## Tries to solve
 
